@@ -11,7 +11,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={ store }>
-      <BrowserRouter>
+      <BrowserRouter basename="/Git-One-Hub">
         <App />
       </BrowserRouter>
     </Provider>
