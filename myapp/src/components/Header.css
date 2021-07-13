@@ -1,10 +1,10 @@
 
 .Header {
   position: absolute;
-  width: 780px;
+  width: 50vw;
   height: 107px;
-  left: 550px;
-  top: 320px;
+  left: 27vw;
+  top: 33vh;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
