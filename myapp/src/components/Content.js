@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import './Content.css';
 
@@ -17,9 +18,11 @@ class Content extends React.Component {
     return(
       <div className="users-cards">
         { accounts.map((account) => (
-        <div className="user-card">
-          <img className="avatar-home" alt="avatar" src={ account["avatar_url"] } />
-          <a className="user-link" key={ account.id } href={ account['html_url'] }>{ account.login }</a>
+        <div key={ account.id } className="user-card">
+          <Link style={{textDecoration: 'none'}} to={ { pathname: "/details", detailsProps: { acccount: account } } }>
+            <img className="avatar-home" alt="avatar" src={ account["avatar_url"] } />
+            <p className="user-link" key={ account.id }>{ account.login }</p>
+          </Link>
         </div>))
         }
       </div>
