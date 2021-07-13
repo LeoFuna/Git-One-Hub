@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Git-One-Hub/static/css/main.59447a02.chunk.css",
+    "main.css": "/Git-One-Hub/static/css/main.39e147ef.chunk.css",
     "main.js": "/Git-One-Hub/static/js/main.75198afb.chunk.js",
     "main.js.map": "/Git-One-Hub/static/js/main.75198afb.chunk.js.map",
     "runtime-main.js": "/Git-One-Hub/static/js/runtime-main.b0b942e9.js",
@@ -10,13 +10,13 @@
     "static/js/3.53173104.chunk.js": "/Git-One-Hub/static/js/3.53173104.chunk.js",
     "static/js/3.53173104.chunk.js.map": "/Git-One-Hub/static/js/3.53173104.chunk.js.map",
     "index.html": "/Git-One-Hub/index.html",
-    "static/css/main.59447a02.chunk.css.map": "/Git-One-Hub/static/css/main.59447a02.chunk.css.map",
+    "static/css/main.39e147ef.chunk.css.map": "/Git-One-Hub/static/css/main.39e147ef.chunk.css.map",
     "static/js/2.bf748732.chunk.js.LICENSE.txt": "/Git-One-Hub/static/js/2.bf748732.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b0b942e9.js",
     "static/js/2.bf748732.chunk.js",
-    "static/css/main.59447a02.chunk.css",
+    "static/css/main.39e147ef.chunk.css",
     "static/js/main.75198afb.chunk.js"
   ]
 }
