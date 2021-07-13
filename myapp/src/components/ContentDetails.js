@@ -31,16 +31,15 @@ class ContentDetails extends React.Component {
   }
 
   render() {
-    const { userRepos } = this.state
-    console.log(userRepos)
+    const { userRepos } = this.state;
     return(
-      <div>
+      <div className="all-repo-cards">
         { userRepos.map((repo, index) => (
-          <div key={ index }>
-            <h3>{ repo.name }</h3>
-            <p>Forks: { repo['forks_count'] }</p>
-            <p>Stars: { repo['stargazers_count'] }</p>
-            <p>Watchers: { repo['watchers'] }</p>
+          <div className="repo-card" key={ index }>
+            <h3 className="user-repo">{ repo.name }</h3>
+            <p className="user-repo-data">Forks: { repo['forks_count'] }</p>
+            <p className="user-repo-data">Stars: { repo['stargazers_count'] }</p>
+            <p className="user-repo-data">Watchers: { repo['watchers'] }</p>
           </div>
         )) }
       </div>

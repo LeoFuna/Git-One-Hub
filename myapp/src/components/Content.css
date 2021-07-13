@@ -35,3 +35,28 @@ width: 120px;
   text-decoration: none;
   align-items: center;
 }
+
+.repo-card {
+  border: 2px solid #D1D1D1;
+  margin: 15px;
+  padding: 0 10px;
+  width: 20vw;
+}
+
+.user-repo {
+  font-size: 24px;
+  color: #D1D1D1;
+}
+
+.user-repo-data {
+  font-size: 18px;
+  color: #D1D1D1;
+}
+
+.repo-content {
+  font-family: Poppins;
+}
+
+.all-repo-cards {
+  display: flex;
+}
