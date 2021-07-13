@@ -1,7 +1,7 @@
 
 .Header {
   position: absolute;
-  width: 50vw;
+  width: 60vw;
   height: 107px;
   left: 27vw;
   top: 33vh;
@@ -13,4 +13,5 @@
   display: flex;
   align-items: center;
   color: #D1D1D1;
+  background-color: red;
 }
