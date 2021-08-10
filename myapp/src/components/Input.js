@@ -22,7 +22,7 @@ class Input extends React.Component {
     const { searchInput } = this.state;
     const { searchUser } = this.props;
     return(
-      <div>
+      <div className="input-div">
         <input className="input-search" type="text" name="searchInput" value={ searchInput } onChange={ this.handleEvent } placeholder="Let me know who do you want to search" />
         <button className="button-search" type="button" onClick={ () => searchUser(searchInput) } >Search</button>
       </div>
