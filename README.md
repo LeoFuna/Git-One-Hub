@@ -25,7 +25,7 @@ Ele foi usado para treinar a interação do React com Redux usando API externa.
 --- 
 # A aplicação
 
-![App preview](./src/appLayout.png)
+![App preview](./myapp/src/appLayout.png)
 
 ---
 
